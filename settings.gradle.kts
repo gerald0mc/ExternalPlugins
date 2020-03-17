@@ -1,6 +1,10 @@
 rootProject.name = "public"
 
 include(":RaidFinder")
+include(":ItemUser")
+include(":CannonReloader")
+include(":PrayerpotDrinker")
+
 
 for (project in rootProject.children) {
     project.apply {
