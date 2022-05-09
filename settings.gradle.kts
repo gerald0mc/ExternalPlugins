@@ -4,7 +4,7 @@ include(":RaidFinder")
 include(":ItemUser")
 include(":CannonReloader")
 include(":PrayerpotDrinker")
-
+include(":KeyClick")
 
 for (project in rootProject.children) {
     project.apply {
